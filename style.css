@@ -1,0 +1,49 @@
+body {
+  background-color: #F7F7F7;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+body h1 {
+  text-align: center;
+  color: #9CD0A2;
+}
+
+body #tillbakaLank {
+  text-align: center;
+}
+
+.tableDiv {
+  background-color: white;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.tableDiv table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.tableDiv table tr {
+  width: 100%;
+  padding: 0;
+}
+
+.tableDiv table tr:nth-child(odd) {
+  background-color: #CDE7D0;
+}
+
+.tableDiv table tr td {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  color: #656565;
+}
+
+.tableDiv table tr .third {
+  width: 33%;
+}
