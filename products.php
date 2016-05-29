@@ -46,13 +46,13 @@ class Products {
     return $url;
   }
 
-  //Presentera utvald data ifrån xml-filen
+  //Returnera all data ifrån XML-filen
   public function returnAllProducts() {
     $xml = $this->xml;
     return $xml;
   }
 
-  //Presentera utvald data ifrån xml-filen på en produkt
+  //Returnera en produkt ifrån XML-filen baserat på en get-request på SKU
   public function returnOneProduct() {
     if (isset($_GET['sku'])) {
       $skuBeforeSanitization = $_GET['sku'];
