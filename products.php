@@ -41,9 +41,9 @@ class Products {
 
   //Sanitera url för säkerhets skull
   public function cleanURL($url) {
-    $url = mysql_real_escape_string($url);
-    $url = htmlspecialchars($url);
-    return $url;
+    $urlClean = mysql_real_escape_string($url);
+    $urlExtraClean = htmlspecialchars($urlClean);
+    return $urlExtraClean;
   }
 
   //Returnera all data ifrån XML-filen
